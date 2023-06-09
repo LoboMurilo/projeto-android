@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #37C777, #268751, #165230);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+#navegacao{
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+#navegacao > li{
+    list-style: none;
+    display: inline;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#navegacao > li:hover{
+    background-color: #1f6e43;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 1px #1d7243;
+    border: 1px solid rgba(255, 255, 255, 0.589);
+}
+
+h2,h3 {
+    font-family: 'android';
+    color: #217949;
+}
+
+main{
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 2px 2px 4px 1px #268751;
+}
+
+main > h2 {
+    margin-left: 10px;
+}
+
+section{
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+
+section > picture > img{
+    width: 100%;
+}
+
+section > h3 {
+    background-image: linear-gradient(to right, #93f8bf7a , white);
+}
+
+section > p {
+    text-align: justify;
+}
+
+.video{
+    padding: 15px 30px;
+    background-color: #165230;
+}
+
+div.extra{
+    background-color: #b1e5c8;
+    margin: 0px 21px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 0px; 
+}
+
+div.extra > h4 {
+    background-color: #68af87;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+div.extra > article {
+    padding: 10px;
+}
+
+.caixaLista {
+    text-align: center;
+}
+
+.caixaLista > ul {
+   display: inline-block;
+   text-align: left;
+   width: 40%;
+   padding-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .caixaLista > ul {
+      display: block;
+      margin-left: 0px;
+      width: 100%;
+    }
+    .caixaLista > ul > li{
+        width: 100%;
+    }
+    
+
+
+}
+
+.caixaLista > ul > li{
+    list-style: none;
+    font-weight: normal;
+}
+
+span{
+    text-decoration: underline;
+}
+
+section > p.textoExtra {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+footer{
+    background-color: #165230;
+    color: white;
+    text-align: center;
+}
+
+.linkReferenciador{
+    text-decoration: none;
+    color: #217949;
+    font-weight: bold;
+}
+
+footer{
+    font-size: 0.8em;
+    margin-bottom: -13px;
+}
+
+footer > p > a.linkReferenciador {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
